@@ -1,0 +1,4 @@
+scoreboard players add nbReroll HungerGames 1
+execute if score nbReroll HungerGames matches 21 run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Hunger-Games","color":"yellow"},{"text":"]","color":"gold"},{"text":" Le générateur à essayé de trouver une map correcte plus de 20 fois, en vain, nous vous conseillons de faire quelque chose pour que cela ne se reproduise plus :)","color": "white"}]
+execute if score nbReroll HungerGames matches ..20 run function hunger_games:new_map with storage macro input
+execute if score nbReroll HungerGames matches 20.. run scoreboard players set nbReroll HungerGames 0

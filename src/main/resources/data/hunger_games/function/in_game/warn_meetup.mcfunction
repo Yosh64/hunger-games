@@ -1,0 +1,4 @@
+execute if score inGame HungerGames matches 1.. if data storage macro input.border_dm run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Hunger-Games","color":"yellow"},{"text":"]","color":"gold"},{"text":" Réduction de la bordure dans 1min !","color": "white"}]
+execute if score inGame HungerGames matches 1.. run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Hunger-Games","color":"yellow"},{"text":"]","color":"gold"},{"text":" Surbrillance des joueurs dans 1min !","color": "aqua"}]
+execute as @a run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 0 1
+execute if score inGame HungerGames matches 1.. run schedule function hunger_games:in_game/meetup 60s

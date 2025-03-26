@@ -1,0 +1,2 @@
+execute unless data storage macro input run function hunger_games:setup
+execute run tellraw @a ["",{"text":"[","color":"gold"},{"text":"Hunger-Games","color":"yellow"},{"text":"]","color":"gold"},{"text":" "},{"text":"Datapack chargé ! "},{"text":"Cliquez-ici pour le livre.","underlined":true,"color":"dark_aqua","hoverEvent": {"action": "show_text","contents": "Modérateur only !"},"clickEvent":{"action":"run_command","value":"/function hunger_games:give_book with storage macro input"}}]

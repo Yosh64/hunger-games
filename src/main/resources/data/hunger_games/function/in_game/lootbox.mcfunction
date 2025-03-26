@@ -1,0 +1,1 @@
+function hunger_games:in_game/lootbox_spawn with storage macro input

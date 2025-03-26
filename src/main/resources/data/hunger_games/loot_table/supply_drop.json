@@ -1,0 +1,645 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "hunger_games:sticks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "hunger_games:potions",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:crimson_planks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:wind_charge",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+{
+  {Brain: {memories: {}
+    }, HurtByTimestamp: 0, SleepTimer: 0s, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, abilities: {invulnerable: 1b, mayfly: 1b, instabuild: 1b, walkSpeed: 0.1f, mayBuild: 1b, flying: 0b, flySpeed: 0.05f
+    }, FallDistance: 0.0f, recipeBook: {recipes: [
+        "minecraft:blackstone_stairs_from_blackstone_stonecutting",
+        "minecraft:tuff_brick_wall",
+        "minecraft:piston",
+        "minecraft:waxed_exposed_copper_grate",
+        "minecraft:yellow_dye_from_dandelion",
+        "minecraft:blue_bed",
+        "minecraft:charcoal",
+        "minecraft:diorite_wall_from_diorite_stonecutting",
+        "minecraft:light_gray_carpet",
+        "minecraft:polished_blackstone_brick_slab",
+        "minecraft:white_banner",
+        "minecraft:end_crystal",
+        "minecraft:waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting",
+        "minecraft:chiseled_tuff_bricks",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:light_gray_banner",
+        "minecraft:stonecutter",
+        "minecraft:stone_pickaxe",
+        "minecraft:soul_torch",
+        "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb",
+        "minecraft:dispenser",
+        "minecraft:wooden_axe",
+        "minecraft:bone_block",
+        "minecraft:diorite_wall",
+        "minecraft:white_carpet",
+        "minecraft:spruce_planks",
+        "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+        "minecraft:red_stained_glass",
+        "minecraft:cracked_deepslate_tiles",
+        "another_furniture:warped_shutter",
+        "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting",
+        "minecraft:chiseled_copper_from_copper_block_stonecutting",
+        "minecraft:polished_tuff_slab_from_tuff_stonecutting",
+        "minecraft:green_carpet",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:mossy_cobblestone_from_moss_block",
+        "minecraft:warped_fence_gate",
+        "minecraft:gold_nugget_from_blasting",
+        "minecraft:cracked_stone_bricks",
+        "another_furniture:light_gray_tall_stool",
+        "minecraft:tripwire_hook",
+        "minecraft:cooked_salmon_from_campfire_cooking",
+        "minecraft:chiseled_polished_blackstone_from_blackstone_stonecutting",
+        "minecraft:trapped_chest",
+        "minecraft:diorite_stairs_from_diorite_stonecutting",
+        "another_furniture:green_tall_stool",
+        "another_furniture:birch_bench",
+        "minecraft:stone_stairs_from_stone_stonecutting",
+        "minecraft:tuff_wall",
+        "minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting",
+        "minecraft:magenta_banner",
+        "minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting",
+        "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting",
+        "another_furniture:light_blue_sofa",
+        "minecraft:cobblestone_wall",
+        "minecraft:green_banner",
+        "minecraft:waxed_copper_grate_from_honeycomb",
+        "minecraft:gray_dye",
+        "minecraft:lime_stained_glass_pane",
+        "minecraft:workbench/carpenters_table",
+        "minecraft:magenta_stained_glass",
+        "minecraft:ender_chest",
+        "minecraft:warped_pressure_plate",
+        "minecraft:polished_andesite_stairs_from_andesite_stonecutting",
+        "minecraft:waxed_cut_copper_slab",
+        "minecraft:beetroot_soup",
+        "minecraft:sugar_from_honey_bottle",
+        "minecraft:deepslate_brick_wall",
+        "minecraft:cooked_cod",
+        "minecraft:spruce_fence_gate",
+        "minecraft:blackstone_slab_from_blackstone_stonecutting",
+        "minecraft:yellow_bed",
+        "minecraft:waxed_oxidized_cut_copper",
+        "another_furniture:gray_tall_stool",
+        "minecraft:cartography_table",
+        "minecraft:workbench/mason_table",
+        "minecraft:beehive",
+        "minecraft:spruce_sign",
+        "minecraft:white_stained_glass_pane_from_glass_pane",
+        "minecraft:polished_diorite",
+        "minecraft:stone_slab",
+        "minecraft:mace",
+        "minecraft:waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting",
+        "minecraft:cut_copper_slab_from_copper_block_stonecutting",
+        "minecraft:cooked_salmon_from_smoking",
+        "minecraft:dye_blue_wool",
+        "another_furniture:blue_stool_dyeing",
+        "minecraft:cyan_dye_from_pitcher_plant",
+        "minecraft:blast_furnace",
+        "minecraft:glow_item_frame",
+        "minecraft:light_blue_bed",
+        "minecraft:oak_wood",
+        "minecraft:emerald_block",
+        "another_furniture:magenta_stool_dyeing",
+        "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting",
+        "another_furniture:cyan_stool_dyeing",
+        "minecraft:waxed_cut_copper",
+        "minecraft:chiseled_stone_bricks_from_stone_bricks_stonecutting",
+        "minecraft:polished_blackstone_bricks_from_blackstone_stonecutting",
+        "minecraft:blue_stained_glass_pane_from_glass_pane",
+        "minecraft:light_blue_carpet",
+        "minecraft:tuff_stairs_from_tuff_stonecutting",
+        "minecraft:copper_grate_from_copper_block_stonecutting",
+        "minecraft:magenta_bed",
+        "minecraft:spruce_wood",
+        "another_furniture:warped_shelf",
+        "minecraft:turtle_helmet",
+        "minecraft:green_stained_glass",
+        "minecraft:polished_tuff_from_tuff_stonecutting",
+        "minecraft:spruce_fence",
+        "minecraft:magenta_dye_from_blue_red_white_dye",
+        "another_furniture:yellow_stool",
+        "minecraft:polished_tuff_slab",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:tuff_brick_slab_from_tuff_stonecutting",
+        "minecraft:andesite_slab",
+        "minecraft:polished_blackstone_wall_from_polished_blackstone_stonecutting",
+        "minecraft:honey_block",
+        "minecraft:cobbled_deepslate_stairs",
+        "minecraft:light_blue_banner",
+        "minecraft:baked_potato",
+        "minecraft:fletching_table",
+        "minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting",
+        "minecraft:cooked_salmon",
+        "another_furniture:gray_curtain",
+        "another_furniture:black_tall_stool",
+        "minecraft:light_gray_dye_from_gray_white_dye",
+        "another_furniture:warped_flower_box", <...>
+      ], isBlastingFurnaceFilteringCraftable: 0b, isSmokerGuiOpen: 0b, isFilteringCraftable: 1b, toBeDisplayed: [
+        "minecraft:blackstone_stairs_from_blackstone_stonecutting",
+        "minecraft:tuff_brick_wall",
+        "minecraft:piston",
+        "minecraft:waxed_exposed_copper_grate",
+        "minecraft:yellow_dye_from_dandelion",
+        "minecraft:blue_bed",
+        "minecraft:charcoal",
+        "minecraft:diorite_wall_from_diorite_stonecutting",
+        "minecraft:light_gray_carpet",
+        "minecraft:polished_blackstone_brick_slab",
+        "minecraft:white_banner",
+        "minecraft:end_crystal",
+        "minecraft:waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting",
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:light_gray_banner",
+        "minecraft:stonecutter",
+        "minecraft:soul_torch",
+        "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb",
+        "minecraft:dispenser",
+        "minecraft:bone_block",
+        "minecraft:diorite_wall",
+        "minecraft:white_carpet",
+        "minecraft:spruce_planks",
+        "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+        "minecraft:red_stained_glass",
+        "minecraft:cracked_deepslate_tiles",
+        "another_furniture:warped_shutter",
+        "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting",
+        "minecraft:chiseled_copper_from_copper_block_stonecutting",
+        "minecraft:polished_tuff_slab_from_tuff_stonecutting",
+        "minecraft:green_carpet",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:mossy_cobblestone_from_moss_block",
+        "minecraft:warped_fence_gate",
+        "minecraft:gold_nugget_from_blasting",
+        "minecraft:cracked_stone_bricks",
+        "another_furniture:light_gray_tall_stool",
+        "minecraft:tripwire_hook",
+        "minecraft:cooked_salmon_from_campfire_cooking",
+        "minecraft:chiseled_polished_blackstone_from_blackstone_stonecutting",
+        "minecraft:trapped_chest",
+        "minecraft:diorite_stairs_from_diorite_stonecutting",
+        "another_furniture:green_tall_stool",
+        "another_furniture:birch_bench",
+        "minecraft:stone_stairs_from_stone_stonecutting",
+        "minecraft:tuff_wall",
+        "minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting",
+        "minecraft:magenta_banner",
+        "minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting",
+        "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting",
+        "another_furniture:light_blue_sofa",
+        "minecraft:cobblestone_wall",
+        "minecraft:green_banner",
+        "minecraft:waxed_copper_grate_from_honeycomb",
+        "minecraft:gray_dye",
+        "minecraft:lime_stained_glass_pane",
+        "minecraft:workbench/carpenters_table",
+        "minecraft:magenta_stained_glass",
+        "minecraft:ender_chest",
+        "minecraft:warped_pressure_plate",
+        "minecraft:polished_andesite_stairs_from_andesite_stonecutting",
+        "minecraft:waxed_cut_copper_slab",
+        "minecraft:beetroot_soup",
+        "minecraft:sugar_from_honey_bottle",
+        "minecraft:deepslate_brick_wall",
+        "minecraft:cooked_cod",
+        "minecraft:spruce_fence_gate",
+        "minecraft:blackstone_slab_from_blackstone_stonecutting",
+        "minecraft:yellow_bed",
+        "minecraft:waxed_oxidized_cut_copper",
+        "another_furniture:gray_tall_stool",
+        "minecraft:cartography_table",
+        "minecraft:workbench/mason_table",
+        "minecraft:beehive",
+        "minecraft:spruce_sign",
+        "minecraft:white_stained_glass_pane_from_glass_pane",
+        "minecraft:polished_diorite",
+        "minecraft:stone_slab",
+        "minecraft:waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting",
+        "minecraft:cut_copper_slab_from_copper_block_stonecutting",
+        "minecraft:cooked_salmon_from_smoking",
+        "minecraft:dye_blue_wool",
+        "another_furniture:blue_stool_dyeing",
+        "minecraft:cyan_dye_from_pitcher_plant",
+        "minecraft:blast_furnace",
+        "minecraft:glow_item_frame",
+        "minecraft:light_blue_bed",
+        "minecraft:emerald_block",
+        "another_furniture:magenta_stool_dyeing",
+        "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting",
+        "another_furniture:cyan_stool_dyeing",
+        "minecraft:waxed_cut_copper",
+        "minecraft:chiseled_stone_bricks_from_stone_bricks_stonecutting",
+        "minecraft:polished_blackstone_bricks_from_blackstone_stonecutting",
+        "minecraft:blue_stained_glass_pane_from_glass_pane",
+        "minecraft:light_blue_carpet",
+        "minecraft:tuff_stairs_from_tuff_stonecutting",
+        "minecraft:copper_grate_from_copper_block_stonecutting",
+        "minecraft:magenta_bed",
+        "another_furniture:warped_shelf",
+        "minecraft:green_stained_glass",
+        "minecraft:polished_tuff_from_tuff_stonecutting",
+        "minecraft:spruce_fence",
+        "minecraft:magenta_dye_from_blue_red_white_dye",
+        "another_furniture:yellow_stool",
+        "minecraft:polished_tuff_slab",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:tuff_brick_slab_from_tuff_stonecutting",
+        "minecraft:andesite_slab",
+        "minecraft:polished_blackstone_wall_from_polished_blackstone_stonecutting",
+        "minecraft:honey_block",
+        "minecraft:cobbled_deepslate_stairs",
+        "minecraft:light_blue_banner",
+        "minecraft:baked_potato",
+        "minecraft:fletching_table",
+        "minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting",
+        "minecraft:cooked_salmon",
+        "another_furniture:gray_curtain",
+        "another_furniture:black_tall_stool",
+        "minecraft:light_gray_dye_from_gray_white_dye",
+        "another_furniture:warped_flower_box",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:dried_kelp_from_smoking",
+        "minecraft:orange_stained_glass",
+        "minecraft:red_banner",
+        "minecraft:polished_blackstone_wall",
+        "minecraft:pink_stained_glass",
+        "minecraft:cobblestone_stairs", <...>
+      ], isFurnaceGuiOpen: 0b, isGuiOpen: 1b, isFurnaceFilteringCraftable: 0b, isBlastingFurnaceGuiOpen: 0b, isSmokerFilteringCraftable: 0b
+    }, DeathTime: 0s, XpSeed: -1882525263, XpTotal: 35, UUID: [I; 1367332243,
+      -1957671537,
+      -1076481779,
+      -658437377
+    ], playerGameType: 1, seenCredits: 0b, Motion: [
+      0.0d,
+      -0.0784000015258789d,
+      0.0d
+    ], Health: 20.0f, foodSaturationLevel: 20.0f, ignore_fall_damage_from_current_explosion: 0b, Air: 300s, OnGround: 1b, Dimension: "minecraft:overworld", Rotation: [
+      82.30795f,
+      41.400833f
+    ], XpLevel: 3, current_impulse_context_reset_grace_time: 0, warden_spawn_tracker: {warning_level: 0, ticks_since_last_warning: 11444, cooldown_ticks: 0
+    }, Score: 35, Pos: [
+      -49.326777363757884d,
+      45.4375d,
+      480.68384311618064d
+    ], Fire: -20s, XpP: 0.61538464f, EnderItems: [
+      {count: 16, Slot: 0b, components: {
+          "minecraft:custom_name": '"lg"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"LOUP-GAROU"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server lg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 1b, components: {
+          "minecraft:custom_name": '"hungergames"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"HUNGER-GAMES"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server hg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 2b, components: {
+          "minecraft:custom_name": '"bedwars"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BEDWARS"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bedwars\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 3b, components: {
+          "minecraft:custom_name": '"bingo"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BINGO"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bingo\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 9b, components: {
+          "minecraft:custom_name": '"lg"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"LOUP-GAROU"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server lg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 10b, components: {
+          "minecraft:custom_name": '"hungergames"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"HUNGER-GAMES"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server hg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 11b, components: {
+          "minecraft:custom_name": '"bedwars"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BEDWARS"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bedwars\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 12b, components: {
+          "minecraft:custom_name": '"bingo"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BINGO"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bingo\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 18b, components: {
+          "minecraft:custom_name": '"lg"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"LOUP-GAROU"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server lg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 19b, components: {
+          "minecraft:custom_name": '"hungergames"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"HUNGER-GAMES"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server hg\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 20b, components: {
+          "minecraft:custom_name": '"bedwars"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BEDWARS"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bedwars\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 16, Slot: 21b, components: {
+          "minecraft:custom_name": '"bingo"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BINGO"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bingo\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      },
+      {count: 1, Slot: 24b, components: {
+          "minecraft:custom_name": '"bingo"',
+          "minecraft:block_entity_data": {back_text: {has_glowing_text: 0b, color: "black", messages: ['""', '""', '""', '""'
+              ]
+            }, is_waxed: 1b, id: "minecraft:sign", front_text: {has_glowing_text: 1b, color: "black", messages: ['"Rejoindre"', '"Le Serveur"', '"BINGO"', '{
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "proxycommand \\"server bingo\\""
+                  },
+                  "text": "(cliquez-ici)"
+                }'
+              ]
+            }
+          }
+        }, id: "minecraft:spruce_sign"
+      }
+    ], attributes: [
+      {id: "minecraft:generic.movement_speed", base: 0.10000000149011612d
+      },
+      {id: "minecraft:generic.attack_damage", base: 1.0d
+      },
+      {id: "minecraft:player.block_interaction_range", base: 4.5d
+      },
+      {id: "minecraft:generic.attack_speed", base: 4.0d
+      },
+      {id: "minecraft:generic.scale", base: 1.0d
+      },
+      {id: "minecraft:generic.gravity", base: 0.08d
+      },
+      {id: "minecraft:player.entity_interaction_range", base: 3.0d
+      },
+      {id: "minecraft:generic.max_absorption", base: 0.0d
+      }
+    ], DataVersion: 3955, foodLevel: 20, foodExhaustionLevel: 3.5330012f, spawn_extra_particles_on_fall: 0b, HurtTime: 0s, SelectedItemSlot: 5, Inventory: [], LastDeathLocation: {pos: [I; -100,
+        15,
+        539
+      ], dimension: "minecraft:overworld"
+    }, foodTickTimer: 0
+  }
+}
